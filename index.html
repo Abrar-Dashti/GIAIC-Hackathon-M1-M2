@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="layout.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="heading"><h1 class="header">Static Resume builder</h1></div>
+        <div class="resume">
+            <form action="">
+                <fieldset>
+
+                    <legend>PERSONAL INFORMATION</legend>
+
+                    <label for="name">Full Name:</label>
+                    <input placeholder="eg: Hamzah" type="text" id="name" name="name" required><br>
+
+                    <label for="email">Email:</label>
+                    <input placeholder="eg: xyz@domain.com" type="email" id="email" name="email" required><br>
+
+                    <label for="contact">Contact Number: </label>
+                    <input placeholder="eg: +92 3123456789" type="tel" id="contact" name="contact" required><br>
+
+                    <label for="nationality">Nationality: </label>
+                    <input placeholder="eg: Pakistani" type="" id="nationality" name="nationality" required>
+
+                    <label for="profile">Profile Picture</label>
+                    <input type="file" id="profile" name="profile" required>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>EDUCATION</legend>
+                    <label for="degree">Current Degree: </label>
+                    <input type="text" placeholder="eg: Bachelor, BSC" id="degree" name="degree" required><br>
+                    <label for="grade">Grade: </label>
+                    <input type="text" placeholder="eg: A+, B" id="degree" name="degree" required><br>
+                    <label for="degree">Percentage</label>
+                    <input type="text" placeholder="eg: 99%" id="degree" name="degree" required>
+                </fieldset>
+
+                <div class="hideshow">
+                    <label for="toogle" id="skillstoggle">Do have skills or not</label>
+                    <button id="main" onclick="hideShow()" >hide</button>
+                </div>
+
+                <div id="visibility">
+                <fieldset class="forSpace">
+                    <legend>Skills</legend>
+                    <label for="skills">Skills and interests</label>
+                    <textarea name="Skills" id="Skills" rows="4" placeholder="Enter your skills and interests"></textarea>
+                </fieldset>
+                </div>
+                
+                <fieldset>
+                    <legend>Work Experience</legend>
+                    <label for="degree">Work</label>
+                    <input type="text" placeholder="eg: Web Devloper" id="degree" name="degree" required><br>
+                    <label for="grade">Experience: </label>
+                    <input type="text" placeholder="eg: 2 Years" id="degree" name="degree" required><br>
+                </fieldset>
+
+                <button type="submit" id="btnsubmit">Generate Resume</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h4>
+        copyright 2024 &copy Abrar Ahmed
+        </h4>
+        <div class="lasttext">This Static Resume Builder Web Page Created by Abrar Ahmed Student of GIAIC</div>
+    </div>
+</body>
+</html>
