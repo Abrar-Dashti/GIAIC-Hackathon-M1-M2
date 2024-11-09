@@ -1,120 +1,107 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(210, 244, 255);
-    padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  padding: 0;
 }
 .heading {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    width: 100%;
-    height: auto;
-    background-color: white;
-    /* padding-top: 25px; */
-    box-shadow: 0px 1px 5px 1px gray;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+  background-color: rgb(93, 93, 255);
+  /* padding-top: 25px; */
 }
 .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .head {
-    line-height: 60px;
-    font-size: 40px;
-    text-align: center;
-    color: #3889e6;
+  line-height: 60px;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
 }
 .resume {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 form {
-    width: 800px;
-    border-radius: 20px;
-    border: 2px solid #2889e6;
-    margin: 3vw;
-    background-color: rgb(226, 255, 254);
-    box-shadow: 0 4px 8px gray;
+  font-size: larger;
+  width: 600px;
+  border-radius: 20px;
+  margin: 3vw;
+  background-color: #fff;
+  box-shadow: 0 4px 8px gray;
 }
 fieldset {
-    margin: 20px;
-    padding: 10px;
-    border: 2px solid rgb(116, 178, 219);
-    border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid rgb(116, 178, 219);
+  border-radius: 20px;
 }
 legend {
-    padding: 10px;
-    font-weight: bold;
-    text-align: left;
-    color: #444444;
+  padding: 10px;
+  font-weight: bold;
+  text-align: left;
+  color: rgb(93, 93, 255);
 }
 label {
-    display: block;
-    margin-top: 15px;
-    color: #444444;
+  display: block;
+  margin-top: 15px;
+  color: rgb(93, 93, 255);
 }
 textarea, input {
-    border-radius: 7px;
-    width: calc(100% - 2px);
-    padding: 6px;
-    margin-top: 3px;
-    margin-left: 0px;
-    border: 1px solid blue;
-    box-sizing: border-box;
-}
-.hideshow {
-    position: absolute;
-    margin-top: 25px;
-    margin-left: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    display: inline;
-}
-.tooglecontent {
-    display: inline;
-}
-.forSpace {
-    margin-top: 100px;
+  border-radius: 7px;
+  width: calc(100% - 2px);
+  padding: 6px;
+  margin-top: 3px;
+  margin-left: 0px;
+  border: 1px solid blue;
+  box-sizing: border-box;
 }
 #btnsubmit {
-    position: relative;
-    font-size: 17px;
-    margin: auto;
-    display: block;
-    width: 200px;
-    height: 30px;
-    /* background-color: #0055ff; */
-    background-color: transparent;
-    border: 2px solid blue;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-bottom: 25px;
-    margin-top: 20px;
-    /* box-shadow: 3px 2px 2px black; */
-    color: rgb(44, 44, 44);
+  position: relative;
+  font-size: 17px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  height: 30px;
+  /* background-color: #0055ff; */
+  background-color: transparent;
+  border: 2px solid blue;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  /* box-shadow: 3px 2px 2px black; */
+  color: rgb(44, 44, 44);
 }
 #btnsubmit:hover {
-    background-color: #0049dc;
-    color: white;
-    box-shadow: none;
+  transition: all 300ms;
+  background-color: #0049dc;
+  color: white;
+  box-shadow: none;
 }
 .footer {
-    margin-top: 100px;
-    text-align: center;
-    height: 100px;
-    width: auto;
-    background-color: white;
-    padding-top: 3em;
+  margin-top: 100px;
+  text-align: center;
+  height: 100px;
+  width: auto;
+  background-color: white;
+  padding-top: 3em;
 }
 .lasttext {
-    margin-top: 10px;
-    font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
 #profile {
-    background-color: white;
+  background-color: white;
 }

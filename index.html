@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume Builder</title>
-    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="./layout.css">
     <script src="app.js"></script>
 </head>
 <body>
     <div class="content">
         <div class="heading"><div class="header"><h1 class="head">Static Resume builder</h1></div></div>
         <div class="resume">
-            <form action="">
+            <form action="submit">
                 <fieldset>
 
                     <legend>PERSONAL INFORMATION</legend>
@@ -43,18 +43,11 @@
                     <input type="text" placeholder="eg: 99%" id="degree" name="degree" required>
                 </fieldset>
 
-                <div class="hideshow">
-                    <label for="toogle" id="skillstoggle">Do have skills or not</label>
-                    <button id="main" onclick="hideShow()" >hide</button>
-                </div>
-
-                <div id="visibility">
-                <fieldset class="forSpace">
+                <fieldset>
                     <legend>Skills</legend>
                     <label for="skills">Skills and interests</label>
                     <textarea name="Skills" id="Skills" rows="4" placeholder="Enter your skills and interests"></textarea>
                 </fieldset>
-                </div>
                 
                 <fieldset>
                     <legend>Work Experience</legend>
